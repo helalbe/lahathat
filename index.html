@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>شبكة لحظات | طلب كروت الإنترنت</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- خط -->
+    <link href="hhhhhh" rel="main.js">
+
+    <!-- ربط ملف CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <span>شبكة لحظات</span>
+        <h2>طلب كروت الإنترنت</h2>
+    </div>
+
+    <label>الاسم الكامل</label>
+    <input type="text" id="name" placeholder="اكتب اسمك">
+
+    <label>رقم الهاتف</label>
+    <input type="tel" id="phone" placeholder="736799518">
+
+    <label>اختر الباقة</label>
+    <select id="package">
+        <option value="">-- اختر الباقة --</option>
+        <option value="180">200 ميجا – 180 ريال</option>
+        <option value="300">500 ميجا – 300 ريال</option>
+        <option value="500">1 جيجا – 500 ريال</option>
+        <option value="900">2 جيجا – 900 ريال</option>
+        <option value="1600">5 جيجا – 1600 ريال</option>
+    </select>
+
+    <label>الكمية</label>
+    <input type="number" id="qty" value="1" min="1">
+
+    <div class="price-box" id="total">السعر الإجمالي: 0 ريال</div>
+
+    <div class="error" id="error"></div>
+
+    <button onclick="sendOrder()" >  <a href="https://wa.me/+967736799518" target="_blank">تسجيل الدخول واتساب</a>
+        <button onclick="sendOrder()">إرسال الطلب عبر واتساب</button>
+
+</button>
+</div>
+
+<div class="footer">
+    المهندس هجرس العزاني <br>
+    📞 736799518 <br>
+    <a href="https://wa.me/+967736799518" target="_blank">تسجيل الدخول واتساب</a>
+</div>
+
+<!-- ربط ملف JavaScript -->
+<script src="main.js"></script>
+
+</body>
+</html>
